@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_app2 import rendered_html
-import stripe
 
 st.image("10.png")
 
