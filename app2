@@ -2,6 +2,8 @@ import streamlit as st
 from streamlit_app2 import rendered_html
 import stripe
 
+st.image("10.png")
+
 config = pdfkit.configuration(wkhtmltopdf="wkhtmltopdf.exe")
 pdf = pdfkit.from_string(rendered_html, configuration=config)
 
